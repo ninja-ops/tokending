@@ -22,7 +22,7 @@ where="/tmp/footoken.txt"
 */
 
 function _200($msg = "") {
-  http_response_code(401);
+  http_response_code(200);
   if ($msg != "") {
     echo $msg . "\n";
   }
