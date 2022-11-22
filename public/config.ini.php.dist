@@ -1,0 +1,10 @@
+<?php
+/*
+[main]
+allowed_request_methods="GET,POST"
+token_request_header="token"
+token_request_var="token"
+
+[footoken]
+what="touch-file"
+where="/tmp/footoken.txt"

@@ -1,0 +1,10 @@
+[Unit]
+Description=Watchdog
+
+[Service]
+ExecStart=/opt/tokending/watchdog.sh /tmp/footoken.txt uptime
+Restart=always
+RestartSec=0
+
+[Install]
+WantedBy=multi-user.target
